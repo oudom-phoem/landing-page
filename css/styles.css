@@ -76,7 +76,7 @@ ul a {
 }
 
 .products-section {
-  padding: 50px 240px 100px 240px;
+  padding: 50px 300px 100px 300px;
   text-align: center;
 }
 
@@ -90,9 +90,8 @@ ul a {
 .products-section ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 50px;
 }
 
 .products-section img {
@@ -107,4 +106,22 @@ ul a {
   color: #666;
   font-size: 18px;
   width: 170px;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 300px;
+}
+
+.quote-section .quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-section .quote-author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  margin-right: 50px;
 }
